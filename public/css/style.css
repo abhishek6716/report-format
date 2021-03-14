@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.large-heading{
+    font-size: 3rem;
+}
+
+.container-fluid{
+    padding: 3% 15% 3%;
+}
+
+#head{
+    background-color: #d3e0ea;
+}
+
+.create-btn{
+    margin: 3% auto 3% auto;
+}
+
+#body{
+    background-color: #f6f5f5;
+    padding: 3%;
+}
+
+.report-title-row{
+    background-color: #bbdfc8;
+}
+
+.hr{
+    border-bottom: none;
+    width: 30rem;
+    margin: 10px auto;
+}
+
+.flexbox{
+    background-color: #ece2e1;
+    width: 60%;
+    margin: 3% auto;
+    border-radius: 8px;
+    border: solid black 0.5px;
+}
+
+.report-title{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem
+}
+
+#tail{
+    background-color: #d3e0ea;
+    padding: 1%;   
+}
