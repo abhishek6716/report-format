@@ -27,16 +27,31 @@ body {
     background-color: #bbdfc8;
 }
 
-.hr{
-    border-bottom: none;
-    width: 30rem;
-    margin: 10px auto;
+
+.hr1{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    width: 50%;
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.flexbox-header{
+    background-color: #f6f5f5;
+    width: 90%;
+    margin: 1% auto;
+    border: none;
 }
 
 .flexbox{
     background-color: #ece2e1;
-    width: 60%;
-    margin: 3% auto;
+    width: 90%;
+    margin: 1% auto;
     border-radius: 8px;
     border: solid black 0.5px;
 }
@@ -49,4 +64,44 @@ body {
 #tail{
     background-color: #d3e0ea;
     padding: 1%;   
+}
+
+.c1{
+    width: 35%;
+    text-align: center;
+}
+
+.c2{
+    width: 25%;
+    text-align: center;
+}
+
+.c3{
+    width: 20%;
+    text-align: center;
+}
+
+.c4{
+    width: 20%;
+    text-align: center;
+}
+
+.h1{
+    width: 35%;
+    text-align: center;
+}
+
+.h2{
+    width: 25%;
+    text-align: center;
+}
+
+.h3{
+    width: 20%;
+    text-align: center;
+}
+
+.h4{
+    width: 20%;
+    text-align: center;
 }
