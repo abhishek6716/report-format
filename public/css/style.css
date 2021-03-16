@@ -54,6 +54,7 @@ hr{
     margin: 1% auto;
     border-radius: 8px;
     border: solid black 0.5px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
 
 .report-title{
