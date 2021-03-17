@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
 
-const Student = mongoose.model('Student', {
+const studentSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
@@ -30,7 +30,13 @@ const Student = mongoose.model('Student', {
             }
         }
     }
+}, {
+    timestamps: true
 })
+
+
+
+const Student = mongoose.model('Student', studentSchema)
 
 
 module.exports = Student

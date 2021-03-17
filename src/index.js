@@ -20,7 +20,7 @@ app.post('/students', async (req, res) => {
 
 app.get('/students', async (req, res) => {
     try {
-        const students = await Student.find({})
+        const students = await Student.find({ section: 1 })
         res.send(students)
     } catch (e) {
         res.status(500).send()
