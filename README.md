@@ -30,6 +30,19 @@ b. Asc, Desc<br/>
 
 2.Sorting<br/>
 a. Name, Rollno, Section, CGPA<br/>
-b. Input Criteria Value
+b. Input Criteria Value<br/>
+
+3.Filter Button
 
 ![box](./screenshots/sorting-searching.png)
+
+### Pagination And Downloading Features
+
+1.Pagination<br/>
+a. 5, 10, All<br/>
+b. previous and next buttons for exploring pagination<br/>
+
+2.Download Results Button<br/>
+Button to download seen results in excel format<br/>
+
+![box](./screenshots/pagination.png)
