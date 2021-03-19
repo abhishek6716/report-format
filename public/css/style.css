@@ -41,22 +41,6 @@ hr{
     border: none;
 }
 
-.flexbox-header{
-    background-color: #f6f5f5;
-    width: 90%;
-    margin: 1% auto;
-    border: none;
-}
-
-.flexbox{
-    background-color: #ece2e1;
-    width: 90%;
-    margin: 1% auto;
-    border-radius: 8px;
-    border: none;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-}
-
 .report-title{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem
@@ -65,46 +49,6 @@ hr{
 #tail{
     background-color: #d3e0ea;
     padding: 1%;   
-}
-
-.c1{
-    width: 35%;
-    text-align: center;
-}
-
-.c2{
-    width: 25%;
-    text-align: center;
-}
-
-.c3{
-    width: 20%;
-    text-align: center;
-}
-
-.c4{
-    width: 20%;
-    text-align: center;
-}
-
-.h1{
-    width: 35%;
-    text-align: center;
-}
-
-.h2{
-    width: 25%;
-    text-align: center;
-}
-
-.h3{
-    width: 20%;
-    text-align: center;
-}
-
-.h4{
-    width: 20%;
-    text-align: center;
 }
 
 .f1{
