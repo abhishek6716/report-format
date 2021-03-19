@@ -1,6 +1,8 @@
 body {
     margin: 0;
+    height: 100%;
     text-align: center;
+    background-color: #f6f5f5;
 }
 
 #h1{
@@ -14,6 +16,7 @@ body {
 #b1{
     background-color: #f6f5f5;
     padding: 3%;
+    height: 100vh;
 }
 
 .f2{
