@@ -17,3 +17,19 @@ The page will reload if you make edits.<br />
 ### Button to create report or document
 
 ![box](./screenshots/create-report.png)
+
+### Fields to be entered
+
+![box](./screenshots/fields.png)
+
+### Searching Sorting Features
+
+1.Searching<br/>
+a. Name, Rollno, Section, CGPA<br/>
+b. Asc, Desc<br/>
+
+2.Sorting<br/>
+a. Name, Rollno, Section, CGPA<br/>
+b. Input Criteria Value
+
+![box](./screenshots/sorting-searching.png)
