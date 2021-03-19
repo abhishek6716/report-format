@@ -13,3 +13,7 @@ Runs the app in the production mode.<br />
 follow [https://abhishek-report-format.herokuapp.com/?limit=5&page=1](https://abhishek-report-format.herokuapp.com/?limit=5&page=1) to view it in the browser.
 
 The page will reload if you make edits.<br />
+
+### Button to create report or document
+
+![box](./screenshots/create-report.png)
