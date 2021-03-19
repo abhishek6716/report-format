@@ -79,7 +79,7 @@ const loadData = (limit, page, sortby, order, searchby, search) => {
             return;
         }
         response.data.forEach((student) => {
-            $('tbody').append(
+            $('tbody').prepend(
                 getRow(
                     student.name,
                     student.rollno,
