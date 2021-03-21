@@ -7,8 +7,8 @@ const go = () => {
     sortby = sortDropdown.toLowerCase();
     const newUrl = `?${limit ? 'limit=' + limit + '&' : ''}${page ? 'page=' + page + '&' : ''
         }${searchby ? 'searchby=' + searchby + '&' : ''}
-			${search ? 'search=' + search + '&' : ''}
-			${sortby ? 'sortby=' + sortby + '&' : ''}${order ? 'order=' + order + '&' : ''
+					${search ? 'search=' + search + '&' : ''}
+					${sortby ? 'sortby=' + sortby + '&' : ''}${order ? 'order=' + order + '&' : ''
         }`;
     console.log(newUrl);
     window.location.href = newUrl;
@@ -22,8 +22,8 @@ $('#inputState2').change(function () {
 
     window.location.href = `?${limit ? 'limit=' + rpp + '&' : ''}${page ? 'page=1' + '&' : ''
         }${searchby ? 'searchby=' + searchby + '&' : ''}
-			${search ? 'search=' + search + '&' : ''}
-			${sortby ? 'sortby=' + sortby + '&' : ''}${order ? 'order=' + order + '&' : ''
+					${search ? 'search=' + search + '&' : ''}
+					${sortby ? 'sortby=' + sortby + '&' : ''}${order ? 'order=' + order + '&' : ''
         }`;
 });
 
@@ -32,8 +32,8 @@ const prev = () => {
     window.location.href = `?${limit ? 'limit=' + limit + '&' : ''
         }${page ? 'page=' + (+page - 1) + '&' : ''}${searchby ? 'searchby=' + searchby + '&' : ''
         }
-			${search ? 'search=' + search + '&' : ''}
-			${sortby ? 'sortby=' + sortby + '&' : ''}${order ? 'order=' + order + '&' : ''
+					${search ? 'search=' + search + '&' : ''}
+					${sortby ? 'sortby=' + sortby + '&' : ''}${order ? 'order=' + order + '&' : ''
         }`;
 };
 
@@ -42,8 +42,8 @@ const next = () => {
     window.location.href = `?${limit ? 'limit=' + limit + '&' : ''
         }${page ? 'page=' + (+page + 1) + '&' : ''}${searchby ? 'searchby=' + searchby + '&' : ''
         }
-			${search ? 'search=' + search + '&' : ''}
-			${sortby ? 'sortby=' + sortby + '&' : ''}${order ? 'order=' + order + '&' : ''
+					${search ? 'search=' + search + '&' : ''}
+					${sortby ? 'sortby=' + sortby + '&' : ''}${order ? 'order=' + order + '&' : ''
         }`;
 };
 
@@ -79,7 +79,7 @@ const loadData = (limit, page, sortby, order, searchby, search) => {
             return;
         }
         response.data.forEach((student) => {
-            $('tbody').prepend(
+            $('tbody').append(
                 getRow(
                     student.name,
                     student.rollno,
